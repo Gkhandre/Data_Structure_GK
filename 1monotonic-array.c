@@ -4,10 +4,10 @@ Output: true*/
 int main()
 {
     int i, j , increasing , true , false;
-    int a[] = {1,2,3,4};
-    for(i=0;i<4;i++)
+    int a[] = {1,3,2};
+    for(i=0;i<2;i++)
     {
-        for(j=1;j<4;j++)
+        for(j=1;j<2;j++)
         {
             if(increasing)
             {
