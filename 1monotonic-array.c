@@ -3,27 +3,19 @@ Output: true*/
 #include<stdio.h>
 int main()
 {
-    int i, j , increasing , true , false;
+    int i, j ;
     int a[] = {1,3,2};
-    for(i=0;i<2;i++)
+    for(i=0;i<=3;i++)
     {
-        for(j=1;j<2;j++)
+        for(j=1;j<=3;j++)
         {
-            if(increasing)
-            {
-            if(a[i]<=a[j])
+            
+            if(a[i]<=a[j] || a[i]>=a[j])
                 continue;
-            else 
-               return false;
-            }
-            else
-            {
-            if(a[i]>=a[j])
-                continue;
-            else 
-               return false;
-            }
-            return true;
+            else    
+               printf("flase");
         }
-    }
+    }   
+     printf("true");   
+     return 0;      
 }
